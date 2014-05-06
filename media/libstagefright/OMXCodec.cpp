@@ -1803,7 +1803,7 @@ OMXCodec::OMXCodec(
               (!strncmp(componentName, "OMX.google.", 11))
 =======
               (!strncmp(componentName, "OMX.google.", 11)
-              || !strncmp(componentName, "OMX.ffmpeg.", 11))
+              || !strncmp(componentName, "OMX.ffmpeg.", 11)
 #ifdef QCOM_LEGACY_OMX
               || !strncmp(componentName, "OMX.qcom",8)
 #endif

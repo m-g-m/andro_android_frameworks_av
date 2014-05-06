@@ -193,7 +193,11 @@ void DataSource::RegisterDefaultSniffers() {
     RegisterSniffer_l(ExtendedExtractor::Sniff);
 #endif
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+#endif
+>>>>>>> 6113404... BOOMSHAKALAKA!!!!!
     RegisterSnifferPlugin();
 >>>>>>> d98952a... libstagefright: Extended media support via FFMPEG
 
