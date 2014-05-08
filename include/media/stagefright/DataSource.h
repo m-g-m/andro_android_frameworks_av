@@ -104,11 +104,7 @@ private:
     static bool gSniffersRegistered;
 
     static void RegisterSniffer_l(SnifferFunc func);
-<<<<<<< HEAD
-=======
-#endif
     static void RegisterSnifferPlugin();
->>>>>>> d98952a... libstagefright: Extended media support via FFMPEG
 
     DataSource(const DataSource &);
     DataSource &operator=(const DataSource &);

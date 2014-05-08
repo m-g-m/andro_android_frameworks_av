@@ -192,14 +192,7 @@ void DataSource::RegisterDefaultSniffers() {
 #ifdef QCOM_HARDWARE
     RegisterSniffer_l(ExtendedExtractor::Sniff);
 #endif
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-#endif
->>>>>>> 6113404... BOOMSHAKALAKA!!!!!
     RegisterSnifferPlugin();
->>>>>>> d98952a... libstagefright: Extended media support via FFMPEG
 
     char value[PROPERTY_VALUE_MAX];
     if (property_get("drm.service.enabled", value, NULL)

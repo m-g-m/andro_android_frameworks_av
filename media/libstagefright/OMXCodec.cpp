@@ -1801,16 +1801,12 @@ OMXCodec::OMXCodec(
       mLeftOverBuffer(NULL),
       mPaused(false),
       mNativeWindow(
-<<<<<<< HEAD
-              (!strncmp(componentName, "OMX.google.", 11))
-=======
               (!strncmp(componentName, "OMX.google.", 11)
               || !strncmp(componentName, "OMX.ffmpeg.", 11)
 #ifdef QCOM_LEGACY_OMX
               || !strncmp(componentName, "OMX.qcom",8)
 #endif
               )
->>>>>>> d98952a... libstagefright: Extended media support via FFMPEG
                         ? NULL : nativeWindow),
 #ifdef QCOM_HARDWARE
       mNumBFrames(0),
